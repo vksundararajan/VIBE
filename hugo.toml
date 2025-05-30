@@ -1,4 +1,20 @@
-baseURL = 'https://buffor.lol/'
-languageCode = 'en-us'
-title = 'Buffor // Books'
-theme = 'hugo-bearblog'
+baseURL = "https://vksundararajan.github.io/buffor.lol/"
+languageCode = "en-us"
+title = "Buffor // Books"
+theme = "hugo-bearblog"
+enableEmoji = true
+canonifyURLs = true
+cleanDestinationDir = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  description = "CTF writeups, personal blogs, and hacker notes."
+  author = "Vigneshwar Sundararajan"
+  github = "https://github.com/vksundararajan"

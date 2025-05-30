@@ -3,27 +3,30 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main
+
+permissions:
+  contents: write  # required for peaceiris/actions-gh-pages
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (with submodules)
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # includes Hugo theme
+          submodules: recursive
           fetch-depth: 0
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.147.0'  # Match your local version
+          hugo-version: '0.147.0'
           extended: true
 
-      - name: Build site
-        run: hugo --minify
+      - name: Build Hugo site
+        run: hugo --minify --cleanDestinationDir --baseURL "https://vksundararajan.github.io/buffor.lol/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -31,3 +34,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          user_name: Vigneshwar Sundararajan
+          user_email: vigneshrajan2022@example.com
