@@ -4,11 +4,11 @@
 
 :root {
     --width: 720px;
-  	--font-nav: 'Asul', serif;
+    --font-nav: 'Asul', serif;
     --font-head: 'Asul', serif;
     --font-main: 'Asul', serif;
     --font-secondary: 'Asul', serif;
-	--font-scale: 1.1em;
+  --font-scale: 1.1em;
     --background: #212121;
     --accent: #6699CC;
     --mark: #FFCC33;
@@ -31,7 +31,7 @@ body {
     font-size: var(--font-scale);
     margin: auto;
     padding: 20px;
-	line-height: normal;
+  line-height: normal;
     max-width: var(--width);
     text-align: left;
     background-color: var(--background);
@@ -58,7 +58,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
- 	font-weight: bold;
+  font-weight: bold;
     font-family: var(--font-main);
     color: var(--mark);
 }
@@ -170,7 +170,7 @@ blockquote {
 }
 
 header {
-  	display: flex;
+    display: flex;
     justify-content: space-between;
 }
 
