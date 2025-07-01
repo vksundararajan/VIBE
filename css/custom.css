@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
-
-
 :root {
     --width: 720px;
-    --font-nav: 'Asul', serif;
-    --font-head: 'Asul', serif;
-    --font-main: 'Asul', serif;
-    --font-secondary: 'Asul', serif;
-  --font-scale: 1.1em;
+    --font-nav: 'Source Serif 4', serif;
+    --font-head: 'Source Serif 4', serif;
+    --font-main: 'Source Serif 4', serif;
+    --font-secondary: 'Source Serif 4', serif;
+  --font-scale: 1.2em;
     --background: #212121;
     --accent: #6699CC;
     --mark: #FFCC33;
@@ -175,7 +171,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Spectral', serif !important;
+  font-family: 'Source Serif 4', serif !important;
 }
 
 footer, 
