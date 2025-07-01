@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 
 :root {
     --width: 720px;
     --font-nav: 'Asul', serif;
     --font-head: 'Asul', serif;
-    --font-main: 'Asul', serif;
-    --font-secondary: 'Asul', serif;
-  --font-scale: 1.1em;
+    --font-main: 'Source Serif 4', serif;
+    --font-secondary: 'Source Serif 4', serif;
+    --font-monospace: 'Source Code Pro', monospace;
+  --font-scale: 1.15em;
     --background: #212121;
     --accent: #6699CC;
     --mark: #FFCC33;
@@ -46,6 +46,7 @@ body {
 h1 {
     font-size: 3rem;
     text-decoration: underline;
+    font-family: var(--font-head);
     text-decoration-color: var(--mark);
     text-decoration-thickness: 0.3rem;
 }
@@ -53,13 +54,14 @@ h1 {
 h2 {
     font-size: 2rem;
     text-decoration: underline;
+    font-family: var(--font-head);
     text-decoration-color: var(--mark);
     text-decoration-thickness: 0.2rem;
 }
 
 h3, h4, h5, h6 {
   font-weight: bold;
-    font-family: var(--font-main);
+    font-family: var(--font-head);
     color: var(--mark);
 }
 
@@ -82,7 +84,7 @@ nav p {
 }
 
 nav a {
-    font-family: var(--font-head);
+    font-family: var(--font-nav);
     margin-right: 0px;
 }
 
@@ -124,7 +126,7 @@ button {
 }
 
 time {
-    font-family: monospace;
+    font-family: var(--font-monospace);
     font-style: normal;
     font-size: 0.9rem;
     padding: 0.15rem 0.3rem;
@@ -155,7 +157,8 @@ img {
 }
 
 code {
-    font-family: monospace;
+    font-family: var(--font-monospace);
+    font-size: 1rem;
     padding: 2px;
     background-color: var(--code-background);
     color: var(--code);
@@ -174,16 +177,16 @@ header {
     justify-content: space-between;
 }
 
-header h1 {
-  font-family: 'Spectral', serif !important;
-}
+/* header h1 {
+  font-family: var(--font-secondary) !important;
+} */
 
 footer, 
 footer a,
 footer a:visited {
     padding: 25px 0;
     color: var(--mark);
-    font-family: monospace;
+    font-family: var(--font-monospace);
     font-size: 0.8rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -230,7 +233,7 @@ ul.blog-posts li {
 /* Override any inherited h3 color for the tag container */
 h3 span.tag {
     color: var(--text);
-    font-family: monospace;
+    font-family: var(--font-monospace);
     margin-left: 0.9rem;                /* More padding before tag */
   }
   span.tag a,
@@ -297,7 +300,7 @@ small,
 .upvote-button,
 .upvoted {
     color: var(--mark);
-    font-family: monospace;
+    font-family: var(--font-monospace);
     text-transform: uppercase;
 }
 
