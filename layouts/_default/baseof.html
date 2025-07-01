@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="RSS Feed">
   <link rel="icon" href="{{ "images/favicon.png" | absURL }}">
-  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap" rel="stylesheet">
 
   {{- partial "favicon.html" . -}}
   <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
