@@ -7,5 +7,5 @@
 &lt;p>Room Link: &lt;a href="https://tryhackme.com/room/billing">https://tryhackme.com/room/billing&lt;/a>&lt;/p>
 &lt;h3 id="1-enumeration">1. Enumeration&lt;/h3>
 &lt;p>&lt;img src="https://vksundararajan.github.io/VIBE/images/thm-billing/1.png" alt="Image">&lt;/p>
-&lt;p>Identifying whether a target machine operates on &lt;u>Linux&lt;/u> can be facilitated by examining the TTL (Time to Live) value during a ping test. A TTL value of 63 typically indicates a Linux system, enabling a more tailored enumeration strategy that is.&lt;/p>
+&lt;p>Identifying whether a target machine operates on &lt;strong>Linux&lt;/strong> can be facilitated by examining the TTL (Time to Live) value during a ping test. A TTL value of 63 typically indicates a Linux system, enabling a more tailored enumeration strategy that is.&lt;/p>
 &lt;p>&lt;img src="https://vksundararajan.github.io/VIBE/images/thm-billing/2.png" alt="Image">&lt;/p></description></item></channel></rss>
