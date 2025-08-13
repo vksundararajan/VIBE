@@ -44,4 +44,14 @@
   {{- partial "custom_body.html" . -}}
 </body>
 
+<!-- Medium Zoom -->
+<script src="https://unpkg.com/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script>
+  // Automatically apply zoom to all blog post images
+  mediumZoom('content img', {
+    margin: 24,
+    background: '#000'
+  });
+</script>
+
 </html>
