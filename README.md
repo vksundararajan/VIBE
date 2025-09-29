@@ -1,7 +1,21 @@
-# [VIBE](https://vksundararajan.github.io/VIBE)
+# [VIBE](https://vksundararajan.github.io/VIBE/)
 
-🛠️ **Site Under Construction**
+[![CI](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml/badge.svg)](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml) 
 
-> *Estimated completion time: **Just after AI takes over the world.*** 😂 \
-> Please be patient… or come back in the next century. \
-> (I promise it'll be awesome. Probably. Maybe. Hopefully.) 😅
+[![GitHub Pages](https://img.shields.io/badge/Site-Live-gold?logo=github&logoColor=white)](https://vksundararajan.github.io/VIBE/) [![Hugo](https://img.shields.io/badge/Hugo-Extended-C0C0C0?logo=hugo&logoColor=white)](https://gohugo.io/)
+
+## What is VIBE
+  
+It is a space where I write, reflect, and share learnings, mostly around security and technology. The site is built with **Hugo** and deployed through **GitHub Pages**.
+
+## Feature Highlights
+
+- Static site built with **Hugo**  
+- Clean, minimal theme and layout  
+- Posts, tags, RSS feed  
+- Deployed via GitHub Pages  
+- Disclaimer: All content here is for learning. Not a how-to for attacks, and not legal advice.
+
+## Development
+
+If you wish to run it locally, run `hugo server`. The site will be available at [localhost:1313](http://localhost:1313). 
