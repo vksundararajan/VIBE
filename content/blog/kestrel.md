@@ -1,12 +1,6 @@
 +++
-title = "Kestrel: LLM-Powered Cybersecurity Research Assistant Using RAG"
-date = "2025-09-24T23:28:22-04:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
+title="Kestrel: LLM-Powered Cybersecurity Research Assistant Using RAG"
+date = "2025-09-24"
 tags = ["ai","security",]
 +++
 
@@ -14,7 +8,7 @@ Agentic AI is changing the way we design intelligent systems. Instead of treatin
 
 <mark>Kestrel</mark> is a project where I applied this approach to a <mark>cybersecurity domain</mark>. The goal was simple: create a research assistant that can query vulnerability datasets, reason over the results, and generate reliable, context-grounded answers. Under the hood, it combines LLMs, ChromaDB, LangChain, and JSON-based datasets into a Retrieval-Augmented Generation (RAG) pipeline that is configurable and extensible.
 
-## Designing with Agentic AI
+### Designing with Agentic AI
 
 At its heart, Agentic AI is about moving beyond **static prompts** and building systems where an agent can:
 
@@ -25,12 +19,12 @@ At its heart, Agentic AI is about moving beyond **static prompts** and building 
 
 In Kestrel, the LLM doesn’t work in isolation. It acts as a <mark>reasoning engine</mark> wrapped inside an agent framework. The agent retrieves data from the vector database, applies a reasoning strategy, and only then generates an answer. This layered approach reduces hallucinations and keeps the system grounded.
 
-## Technical Stack
+### Technical Stack
 
-#### 1. Dataset and JSON Files
+#### ## Dataset and JSON Files
 The project starts with cybersecurity data in JSON format. Each JSON entry represents a knowledge unit — e.g., a vulnerability description, mitigation detail, or framework entry. Using JSON keeps ingestion simple and makes it easy to extend with more structured sources later (like NVD feeds, CWE, or ATT&CK).
 
-#### 2. Vector Database with ChromaDB
+#### ## Vector Database with ChromaDB
 The JSON files are embedded into vector representations. These embeddings capture semantic meaning of each document. I chose ChromaDB as the vector store because:
 
 - It is lightweight and fast for prototyping.
@@ -39,7 +33,7 @@ The JSON files are embedded into vector representations. These embeddings captur
 
 ChromaDB indexes the embeddings and makes similarity search efficient. When a query comes in, it finds the top-k relevant entries in milliseconds.
 
-#### 3. Using LangChain
+#### ## Using LangChain
 
 LangChain is where Agentic AI principles show up most clearly. Instead of manually wiring everything, I used LangChain to:
 
@@ -50,7 +44,7 @@ LangChain is where Agentic AI principles show up most clearly. Instead of manual
 
 This orchestration layer ensures the system can flexibly switch reasoning styles or swap components without rewriting the whole pipeline.
 
-#### 4. Large Language Model (LLM) Integration
+#### ## Large Language Model (LLM) Integration
 
 The LLM provides the reasoning and natural language generation. It takes in:
 
@@ -60,7 +54,7 @@ The LLM provides the reasoning and natural language generation. It takes in:
 
 By combining all three, it produces answers that are not just fluent but also grounded in the knowledge base.
 
-## Workflow in Practice
+### Workflow in Practice
 
 Here’s the flow Kestrel follows for each query:
 
@@ -75,11 +69,11 @@ Here’s the flow Kestrel follows for each query:
 
 
 ### Why This Approach Works
-> This approach works because it keeps the answers grounded in real data through retrieval, ensuring the responses are reliable rather than guesses from the model alone. At the same time, it offers flexibility in reasoning — some situations demand a detailed explanation while others call for a concise summary, and Kestrel can adapt by switching reasoning modes accordingly. The architecture is designed to be modular, so new datasets, different LLMs, or alternative vector databases can be integrated without disrupting the core pipeline, making it easier to extend and scale. Just as importantly, every response and reasoning path is logged, giving the system a level of transparency and auditability that builds trust — an essential factor when working in cybersecurity.
+This approach works because it keeps the answers grounded in real data through retrieval, ensuring the responses are reliable rather than guesses from the model alone. At the same time, it offers flexibility in reasoning — some situations demand a detailed explanation while others call for a concise summary, and Kestrel can adapt by switching reasoning modes accordingly. The architecture is designed to be modular, so new datasets, different LLMs, or alternative vector databases can be integrated without disrupting the core pipeline, making it easier to extend and scale. Just as importantly, every response and reasoning path is logged, giving the system a level of transparency and auditability that builds trust — an essential factor when working in cybersecurity.
 
 
 
-## The Road Ahead
+### The Road Ahead
 
 Kestrel today is a proof-of-concept, but there’s plenty of scope:
 
@@ -89,7 +83,7 @@ Kestrel today is a proof-of-concept, but there’s plenty of scope:
 - Building evaluation metrics to score accuracy and response quality.
 
 
-## Final Thoughts
+### Final Thoughts
 
 Kestrel shows what’s possible when Agentic AI principles meet a focused use case. By combining JSON datasets, ChromaDB, LangChain, and LLMs into a structured RAG pipeline, we can build assistants that don’t just talk — they retrieve, reason, and support real-world decision making.
 
