@@ -1,8 +1,6 @@
 # [VIBE](https://vksundararajan.github.io/VIBE/)
 
-[![CI](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml/badge.svg)](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml) 
-
-[![GitHub Pages](https://img.shields.io/badge/Site-Live-gold?logo=github&logoColor=white)](https://vksundararajan.github.io/VIBE/) [![Hugo](https://img.shields.io/badge/Hugo-Extended-C0C0C0?logo=hugo&logoColor=white)](https://gohugo.io/)
+[![CI](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml/badge.svg)](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml) [![GitHub Pages](https://img.shields.io/badge/Site-Live-gold?logo=github&logoColor=white)](https://vksundararajan.github.io/VIBE/) [![Hugo](https://img.shields.io/badge/Hugo-Extended-C0C0C0?logo=hugo&logoColor=white)](https://gohugo.io/)
 
 ## What is VIBE
   
