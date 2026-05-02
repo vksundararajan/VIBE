@@ -1,14 +1,19 @@
+{{ if .IsHome }}
 <a href="{{ "" | relURL }}" class="title">
   <h1>{{ .Site.Title }}</h1>
 </a>
-<nav>{{- partial "nav.html" . -}}</nav>
+{{ else if and (eq .Kind "section") (eq .Section "blog") }}
+<a href="{{ "" | relURL }}" class="blog-section-title">// field notes</a>
+{{ else }}
+<a href="{{ "" | relURL }}" class="back-home">← HOME</a>
+{{ end }}
 
 <!-- Open Graph for social preview -->
-<meta property="og:image" content="{{ "images/og-preview.png" | absURL }}" />
+<meta property="og:image" content="{{ " images/og-preview.png" | absURL }}" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="120" />
 <meta property="og:image:height" content="124" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="{{ "images/og-preview.png" | absURL }}" />
+<meta name="twitter:image" content="{{ " images/og-preview.png" | absURL }}" />

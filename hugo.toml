@@ -1,6 +1,6 @@
 baseURL = "https://vksundararajan.github.io/VIBE/"
 languageCode = "en-us"
-title = "VIBE"
+title = "~Vigneshwar Sundararajan"
 theme = "hugo-bearblog"
 enableEmoji = true
 canonifyURLs = true

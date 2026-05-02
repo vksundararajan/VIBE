@@ -1,5 +1,5 @@
 <ul class="blog-posts">
-  {{ range first 3 (sort (where .Site.RegularPages "Section" "blog") "Date" "desc") }}
+  {{ range first 5 (sort (where .Site.RegularPages "Section" "blog") "Date" "desc") }}
   <li>
     <span>
       <i>
