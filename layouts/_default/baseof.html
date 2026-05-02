@@ -19,7 +19,11 @@
   {{ end -}}
 
   {{- partial "style.html" . -}}
-  <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+  {{- $customCSS := resources.Get "css/custom.css" -}}
+  {{- if $customCSS -}}
+    {{- $customCSS = $customCSS | minify | fingerprint -}}
+    <link rel="stylesheet" href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}">
+  {{- end -}}
 
   <!-- A partial to be overwritten by the user.
   Simply place a custom_head.html into
