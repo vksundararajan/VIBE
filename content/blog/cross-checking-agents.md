@@ -5,11 +5,11 @@ draft = false
 tags = ["ai","security"]
 +++
 
-<mark>Cross-Check</mark> is an advanced phishing detection framework powered by Large Language Models (LLMs). Built using <mark>Google's Agent Development Kit (ADK)</mark> and bypassing traditional frameworks like ~Ember.js / Angular JS~ in favor of **Mesop**, it implements a "debate" mechanism where multiple specialized AI agents analyze a website from different perspectives before reaching a consensus on its legitimacy.
+<b>C</b>ross-<b>C</b>heck is an advanced phishing detection framework powered by Large Language Models (LLMs). Built using <b>Google's Agent Development Kit (ADK)</b> and bypassing traditional frameworks like ~Ember.js / Angular JS~ in favor of <b>Mesop</b>, it implements a "debate" mechanism where multiple specialized AI agents analyze a website from different perspectives before reaching a consensus on its legitimacy.
 
 ## Architecting Multi-Agent Systems
 
-<mark>The Challenge: Single-Point Failure</mark>
+<I>The Challenge: Single-Point Failure</I>
 
 Traditional phishing detection often relies on single-point analysis—asking one model, "Is this phishing?" This approach is prone to hallucinations; a sophisticated phishing site might look visually perfect to a standard LLM, or a legitimate site might be flagged due to benign anomalies. To build a system that is truly reliable, we need to move beyond simple inference and towards a panel of experts that can debate the evidence.
 
@@ -25,12 +25,12 @@ Before any AI analysis occurs, the `UrlPreProcessor` agent executes deterministi
 ### 2. The Debate Loop (The Reasoning Engine)
 The core of the system is the `LoopAgent`, which convenes a panel of four specialized experts to debate the findings:
 
-- <mark>URL Analyst:</mark> Examines domain patterns, typosquatting, subdomain usage, and TLD characteristics.
-- <mark>HTML Structure Analyst:</mark>  nspects the code for hidden elements, obfuscated scripts, suspicious input fields, and deceptive redirection patterns.
-- <mark>Content Semantic Analyst:</mark> Analyzes visible text for manipulative language, requests for sensitive information, and social engineering tactics.
-- <mark>Brand Impersonation Analyst:</mark> Detects mismatches between the brand identity (e.g., Apple, PayPal) and the actual URL/content.
+- **URL Analyst:** Examines domain patterns, typosquatting, subdomain usage, and TLD characteristics.
+- **HTML Structure Analyst:**  nspects the code for hidden elements, obfuscated scripts, suspicious input fields, and deceptive redirection patterns.
+- **Content Semantic Analyst:** Analyzes visible text for manipulative language, requests for sensitive information, and social engineering tactics.
+- **Brand Impersonation Analyst:** Detects mismatches between the brand identity (e.g., Apple, PayPal) and the actual URL/content.
 
-These agents submit their findings to a **Moderator**, who evaluates if a consensus exists. If the team disagrees, the Moderator triggers another round, forcing the agents to refine their arguments based on peer feedback.
+These agents submit their findings to a `Moderator`, who evaluates if a consensus exists. If the team disagrees, the Moderator triggers another round, forcing the agents to refine their arguments based on peer feedback.
 
 ### 3. Final Judgment
 Once the debate concludes, a distinct `JudgementAgent` reviews the entire conversation history. It weighs the final arguments from all specialists and delivers the authoritative `PHISHING` or `LEGITIMATE` verdict.
@@ -43,11 +43,11 @@ The application is fully containerized using **Docker**. The `Dockerfile` implem
 ### Comprehensive Testing & Evaluation
 Reliability is proven through a multi-layered testing strategy that goes beyond simple unit tests:
 
-- <mark>Integration & Evaluation:</mark> The system includes a dedicated `eval` suite that utilizes the `AgentEvaluator` to run full end-to-end integration tests. By testing against structured datasets (`legitimate.evalset.json` and `phishing.evalset.json`), we can benchmark the system's actual detection performance and ensure the "debate" mechanism is functioning correctly across real-world examples.
+- **Integration & Evaluation:** The system includes a dedicated `eval` suite that utilizes the `AgentEvaluator` to run full end-to-end integration tests. By testing against structured datasets (`legitimate.evalset.json` and `phishing.evalset.json`), we can benchmark the system's actual detection performance and ensure the "debate" mechanism is functioning correctly across real-world examples.
 
-- <mark>Unit Tests</mark> Individual components, such as the `UrlPreProcessor` and utility functions, are verified using `pytest` to ensure robust error handling and correct data parsing.
+- **Unit Tests** Individual components, such as the `UrlPreProcessor` and utility functions, are verified using `pytest` to ensure robust error handling and correct data parsing.
 
-- <mark>CI/CD Pipeline</mark> A GitHub Actions workflow (`tests.yml`) automatically executes this entire unit test suite on every push, ensuring no regressions are introduced.
+- **CI/CD Pipeline** A GitHub Actions workflow (`tests.yml`) automatically executes this entire unit test suite on every push, ensuring no regressions are introduced.
 
 
 ##  Demo

@@ -6,7 +6,7 @@ tags = ["ai","security",]
 
 Agentic AI is changing the way we design intelligent systems. Instead of treating an LLM as a single-shot text generator, Agentic AI frameworks let us structure reasoning, retrieval, and decision-making in a way that mimics how humans research and solve problems.
 
-<mark>Kestrel</mark> is a project where I applied this approach to a <mark>cybersecurity domain</mark>. The goal was simple: create a research assistant that can query vulnerability datasets, reason over the results, and generate reliable, context-grounded answers. Under the hood, it combines LLMs, ChromaDB, LangChain, and JSON-based datasets into a Retrieval-Augmented Generation (RAG) pipeline that is configurable and extensible.
+<b>Kestrel</b> is a project where I applied this approach to a **cybersecurity domain**. The goal was simple: create a research assistant that can query vulnerability datasets, reason over the results, and generate reliable, context-grounded answers. Under the hood, it combines LLMs, ChromaDB, LangChain, and JSON-based datasets into a Retrieval-Augmented Generation (RAG) pipeline that is configurable and extensible.
 
 ### Designing with Agentic AI
 
@@ -17,7 +17,7 @@ At its heart, Agentic AI is about moving beyond **static prompts** and building 
 - Use external tools (like a vector database).
 - Deliver answers that are explainable and auditable.
 
-In Kestrel, the LLM doesn’t work in isolation. It acts as a <mark>reasoning engine</mark> wrapped inside an agent framework. The agent retrieves data from the vector database, applies a reasoning strategy, and only then generates an answer. This layered approach reduces hallucinations and keeps the system grounded.
+In Kestrel, the LLM doesn’t work in isolation. It acts as a **reasoning engine** wrapped inside an agent framework. The agent retrieves data from the vector database, applies a reasoning strategy, and only then generates an answer. This layered approach reduces hallucinations and keeps the system grounded.
 
 ### Technical Stack
 
@@ -61,9 +61,9 @@ Here’s the flow Kestrel follows for each query:
 1. User Input – The researcher asks a security question.
 2. Retrieval – Relevant JSON entries are pulled from ChromaDB.
 3. Agent Reasoning – LangChain instructs the LLM on how to process the information and Direct for concise answers.
-    - <mark>Chain-of-Thought</mark> for step-by-step explanations
-    - <mark>ReAct</mark> when retrieval plus tool use is needed
-    - <mark>Self-Ask</mark> for breaking down complex questions
+    - **Chain-of-Thought** for step-by-step explanations
+    - **ReAct** when retrieval plus tool use is needed
+    - **Self-Ask** for breaking down complex questions
 4. Answer Generation – The LLM composes the response, weaving in both the query and retrieved context.
 5. Output Logging – The result is saved into structured logs for later analysis or auditing.
 

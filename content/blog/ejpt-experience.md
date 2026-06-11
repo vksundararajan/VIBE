@@ -21,7 +21,7 @@ If you think you can complete the task quickly, there’s no need to save notes 
 
 Someone on LinkedIn told me that if I could solve all the easy challenges on TryHackMe, I would pass the exam. So, I focused on completing every easy CTF on TryHackMe before taking the exam. But that turned out to be unnecessary.
 
-Even if you feel less confident, <mark>remember you have one more attempt</mark>. Don’t stress too much — just dive in and get through it quickly.
+Even if you feel less confident, <b>remember you have one more attempt</b>. Don’t stress too much — just dive in and get through it quickly.
 
 ## Working Through the Exam
 The exam had **six machines** ready to be tackled. After compromising four of them, I was able to answer all the questions I was asked.
@@ -30,11 +30,11 @@ The exam had **six machines** ready to be tackled. After compromising four of th
 
 ### Tips for Smoother Testing
 
-- <mark>Keep Bruteforce Simple</mark> Don’t waste time running large wordlists. Often, <u>clues in the questions help narrow down the passwords</u>. When you’re given four options in the question and asked to choose the correct password, simply copy those four options into a text file and run a brute-force attack. This can save a lot of time.
+- **Keep Bruteforce Simple** Don’t waste time running large wordlists. Often, <u>clues in the questions help narrow down the passwords</u>. When you’re given four options in the question and asked to choose the correct password, simply copy those four options into a text file and run a brute-force attack. This can save a lot of time.
 
-- <mark>Be Careful with Flags</mark> When dealing with flag.txt questions, <u>double-check the PATH to ensure you’re retrieving the flag from the correct location before submitting</u>. You won’t be able to change your answer later. The flag’s path will be specified in the question, so make sure to extract the flag only from that exact path.
+- **Be Careful with Flags** When dealing with flag.txt questions, <u>double-check the PATH to ensure you’re retrieving the flag from the correct location before submitting</u>. You won’t be able to change your answer later. The flag’s path will be specified in the question, so make sure to extract the flag only from that exact path.
 
-- <mark>Don’t Overthink the Pivot Machines</mark> I didn’t need to do much with the pivot machine. A basic TCP scan was enough to get the job done, so don’t stress over it. I was simply asked which vulnerable service was running on the target machine. When I ran a TCP port scan in Metasploit, it revealed only one service. I submitted that and completed the task — no need for port forwarding or any extra steps.
+- **Don’t Overthink the Pivot Machines** I didn’t need to do much with the pivot machine. A basic TCP scan was enough to get the job done, so don’t stress over it. I was simply asked which vulnerable service was running on the target machine. When I ran a TCP port scan in Metasploit, it revealed only one service. I submitted that and completed the task — no need for port forwarding or any extra steps.
 
 **NOTE** The pivot process might get a bit tricky, but I didn’t worry about it since there were no questions requiring information from inside the pivot machine. I didn’t even try to compromise it. However, after completing the exam, I found out that marks were deducted because I didn’t demonstrate the pivoting. If I had known this earlier, I would have done the pivoting process. Since no questions directly asked for it, I assumed skipping it was fine.
 
