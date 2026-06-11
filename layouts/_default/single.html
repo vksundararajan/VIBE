@@ -17,4 +17,8 @@
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
   {{ end }}
 </p>
+
+<div class="comments">
+  {{ partial "giscus.html" . }}
+</div>
 {{ end }}

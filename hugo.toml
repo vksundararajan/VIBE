@@ -18,3 +18,16 @@ cleanDestinationDir = true
   description = "CTF writeups, personal blogs, and hacker notes."
   author = "Vigneshwar Sundararajan"
   github = "https://github.com/vksundararajan"
+
+[params.giscus]
+  repo = "vksundararajan/VIBE"
+  repoID = "R_kgDOOyppBg"
+  category = "Announcements"
+  categoryID = "DIC_kwDOOyppBs4C-8Ap"
+  mapping = "og:title"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "transparent_dark"
+  lang = "en"
+  loading = "lazy"
