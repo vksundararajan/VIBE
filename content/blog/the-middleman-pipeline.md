@@ -37,7 +37,7 @@ Instead of sending full prompts, the middleman server waits a fraction of a seco
 
 It sends the enterprise AI one single command: "Find the bugs in the code for the following boxes:" followed by a list of the variables.
 
-## Why This is a Game Changer
+## Why This is a Game Changer?
 
 The external AI only reads the heavy instructions once. This saves massive amounts of compute and money. It processes the variables in parallel and sends a list of answers back to the middleman.
 
