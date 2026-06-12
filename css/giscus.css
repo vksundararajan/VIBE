@@ -28,11 +28,3 @@ h1, h2, h3, h4, h5, h6 {
 code, pre {
   font-family: 'Google Sans Code', monospace !important;
 }
-
-/* Override focus and accent colors to match the yellow theme */
-main, .gsc-main {
-  --color-accent-fg: #FFCC33 !important;
-  --color-accent-emphasis: #FFCC33 !important;
-  --color-accent-muted: rgba(255, 204, 51, 0.4) !important;
-  --color-accent-subtle: rgba(255, 204, 51, 0.1) !important;
-}
