@@ -29,9 +29,10 @@ code, pre {
   font-family: 'Google Sans Code', monospace !important;
 }
 
-/* Subtle gray focus ring for the comment box instead of bright blue */
-.form-control:focus,
-.form-control:focus-within {
-  border-color: #666 !important;
-  box-shadow: inset 0 0 0 1px #666 !important;
+/* Override the aggressive blue focus glow with a subtle gray */
+.gsc-comment-box {
+  --color-accent-fg: #555 !important;
+  --color-accent-emphasis: #555 !important;
+  --color-accent-muted: rgba(85, 85, 85, 0.4) !important;
+  --color-accent-subtle: rgba(85, 85, 85, 0.15) !important;
 }
