@@ -5,7 +5,7 @@ draft = false
 tags = ["ai","security"]
 +++
 
-<b>TL;DR:</b> Single AI models often make mistakes when trying to spot phishing websites. A better approach is using a <b>"</b>multi-agent debate<b>"</b> system. By creating a team of specialized AI agents that debate the evidence together, we can drastically reduce errors and catch complex phishing attacks early. I built a tool called [<b>C</b>ross-<b>C</b>heck](https://github.com/vksundararajan/) using Google's Agent Development Kit to bring this concept to life.
+<b>TL;DR:</b> Single AI models often make mistakes when trying to spot phishing websites. A better approach is using a <b>"</b>multi-agent debate<b>"</b> system. By creating a team of specialized AI agents that debate the evidence together, we can drastically reduce errors and catch complex phishing attacks early. I built a tool called [<b>C</b>ross-<b>C</b>heck](https://github.com/vgnshwar/) using Google's Agent Development Kit to bring this concept to life.
 
 As a security researcher, I spend a lot of time looking at how cyber attacks are evolving. Phishing is getting much smarter. Attackers are using AI to create flawless fake websites, so naturally, we want to use AI to defend against them. But there is a problem.
 
@@ -29,7 +29,7 @@ Then, a <u>Moderator AI</u> reviews their answers. If they all agree, great. But
 
 This collaborative approach is incredibly powerful. It forces the AI to explain its reasoning, which reduces hallucinations and gives security analysts a clear, transparent report.
 
-I love turning these concepts into working solutions. That is why I built a project called [<b>C</b>ross-<b>C</b>heck](https://github.com/vksundararajan/). It is an advanced phishing detection framework that uses Google's Agent Development Kit to orchestrate this exact debate loop. By building this pipeline, we move away from single-point failures and start using AI reasoning to its full potential.
+I love turning these concepts into working solutions. That is why I built a project called [<b>C</b>ross-<b>C</b>heck](https://github.com/vgnshwar/). It is an advanced phishing detection framework that uses Google's Agent Development Kit to orchestrate this exact debate loop. By building this pipeline, we move away from single-point failures and start using AI reasoning to its full potential.
 
 The future of cybersecurity defense is not just bigger models; it is smarter teamwork between models. 
 

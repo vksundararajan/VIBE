@@ -1,5 +1,5 @@
 ---
-title: "VIBE"
+title: "~Vigneshwar Sundararajan"
 ---
 
 <div class="portfolio-hero">
@@ -12,11 +12,11 @@ title: "VIBE"
 
 <div class="hero-links">
 <a href="https://www.linkedin.com/in/vigneshwar-sundararajan-07a2a5185/" class="hero-link" target="_blank" rel="noopener noreferrer">LinkedIn<a>
-<a href="https://github.com/vksundararajan" class="hero-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a href="https://github.com/vgnshwar" class="hero-link" target="_blank" rel="noopener noreferrer">GitHub</a>
 <a href="https://medium.com/@vigneshwarks" class="hero-link" target="_blank" rel="noopener noreferrer">Medium</a>
 <a href="https://tryhackme.com/p/vigneshwarks" class="hero-link" target="_blank" rel="noopener noreferrer">TryHackMe</a>
-<a href="/VIBE/blog/" class="hero-link">Blog</a>
-<a href="/VIBE/index.xml" class="hero-link">RSS</a>
+<a href="/blog/" class="hero-link">Blog</a>
+<a href="/index.xml" class="hero-link">RSS</a>
 </div>
 </div>
 
@@ -84,25 +84,25 @@ title: "VIBE"
 <p class="project-tag">Multi-Agent · Google ADK · LLM</p>
 <h4>Cross-Check</h4>
 <p>Multi-agent URL phishing detection framework using Google ADK and Mesop. Debate consensus mechanism among specialized agents minimizes hallucinations. Dockerized full-stack with automated testing.</p>
-<a href="https://github.com/vksundararajan/cross-check" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
+<a href="https://github.com/vgnshwar/cross-check" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
 </div>
 <div class="project-card">
 <p class="project-tag">LangGraph · MCP · Recon</p>
 <h4>AdaptiveFuzz</h4>
 <p>Reconnaissance framework powered by a multi-agent system on LangGraph. Context-aware LLMs with custom MCP for agent communication. Drastically reduces manual effort in vulnerability discovery.</p>
-<a href="https://github.com/vksundararajan/AdaptiveFuzz" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
+<a href="https://github.com/vgnshwar/AdaptiveFuzz" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
 </div>
 <div class="project-card">
 <p class="project-tag">RAG · LangChain · ChromaDB</p>
 <h4>Kestrel</h4>
 <p>RAG system with LangChain, ChromaDB, with Metasploit datasets. Supports CoT, ReAct, and Self-Ask reasoning for context-grounded vulnerability research with reduced hallucination.</p>
-<a href="https://github.com/vksundararajan/kestrel" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
+<a href="https://github.com/vgnshwar/kestrel" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
 </div>
 <div class="project-card">
 <p class="project-tag">Cryptography · Cloud</p>
 <h4>Cloud Sec Encryptor</h4>
 <p>Personal tool for secure file transfers across cloud platforms. Automates encryption on upload and decryption on download, showcasing expertise in data protection and encryption engineering.</p>
-<a href="https://github.com/vksundararajan/cloud-sec-encryptor" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
+<a href="https://github.com/vgnshwar/cloud-sec-encryptor" class="project-link" target="_blank" rel="noopener noreferrer">→ GitHub</a>
 </div>
 </div>
 
@@ -254,7 +254,7 @@ title: "VIBE"
 <div class="portfolio-body">
 <div class="section-header">
 <p class="section-label">// recent logs</p>
-<a href="/VIBE/blog/" class="section-more">→ all posts</a>
+<a href="/blog/" class="section-more">→ all posts</a>
 </div>
 
 {{< recent-posts >}}
@@ -265,8 +265,6 @@ title: "VIBE"
 <div class="portfolio-body">
 <p class="section-label">// whoami</p>
 
-Name's <mark>~Vigneshwar</mark>. Just an ordinary guy who enjoys exploring how things work under the hood — especially when it comes to breaking and securing systems. Software development background, leaned into security over time. MS in Cybersecurity from UCF. Now building at the edge of offensive security and AI.
-
-VIBE — <b>V</b>igneshwar's <b>I</b>nsightful <b>B</b>logs & <b>E</b>xperiences.
+Name's <mark>~Vigneshwar</mark>. Just an ordinary guy who enjoys exploring how things work under the hood — especially when it comes to breaking and securing systems. Software development background, leaned into security over time. MS in Cybersecurity from UCF. Now building at the edge of cybersecurity and AI.
 
 </div>

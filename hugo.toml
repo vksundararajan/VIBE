@@ -1,4 +1,4 @@
-baseURL = "https://vksundararajan.github.io/VIBE/"
+baseURL = "https://vgnshwar.github.io/"
 languageCode = "en-us"
 title = "~Vigneshwar Sundararajan"
 theme = "hugo-bearblog"
@@ -17,10 +17,10 @@ cleanDestinationDir = true
 [params]
   description = "CTF writeups, personal blogs, and hacker notes."
   author = "Vigneshwar Sundararajan"
-  github = "https://github.com/vksundararajan"
+  github = "https://github.com/vgnshwar"
 
 [params.giscus]
-  repo = "vksundararajan/VIBE"
+  repo = "vgnshwar/vgnshwar.github.io"
   repoID = "R_kgDOOyppBg"
   category = "Announcements"
   categoryID = "DIC_kwDOOyppBs4C-8Ap"
@@ -28,6 +28,6 @@ cleanDestinationDir = true
   reactionsEnabled = "1"
   emitMetadata = "0"
   inputPosition = "bottom"
-  theme = "https://vksundararajan.github.io/VIBE/css/giscus.css"
+  theme = "https://vgnshwar.github.io/css/giscus.css"
   lang = "en"
   loading = "lazy"

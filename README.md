@@ -1,6 +1,6 @@
-# VIBE
+# [vgnshwar.github.io](https://vgnshwar.github.io)
 
-[![CI](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml/badge.svg)](https://github.com/vksundararajan/VIBE/actions/workflows/publish.yml) [![GitHub Pages](https://img.shields.io/badge/Site-Live-gold?logo=github&logoColor=white)](https://vksundararajan.github.io/VIBE/) [![Hugo](https://img.shields.io/badge/Hugo-Extended-C0C0C0?logo=hugo&logoColor=white)](https://gohugo.io/)
+[![CI](https://github.com/vgnshwar/vgnshwar.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/vgnshwar/vgnshwar.github.io/actions/workflows/publish.yml) [![GitHub Pages](https://img.shields.io/badge/Site-Live-gold?logo=github&logoColor=white)](https://vgnshwar.github.io/) [![Hugo](https://img.shields.io/badge/Hugo-Extended-C0C0C0?logo=hugo&logoColor=white)](https://gohugo.io/)
   
 It is a space where I write, reflect, and share learnings, mostly around security and technology. The site is built with **Hugo** and deployed through **GitHub Pages**.
 
