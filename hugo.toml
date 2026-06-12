@@ -28,6 +28,6 @@ cleanDestinationDir = true
   reactionsEnabled = "1"
   emitMetadata = "0"
   inputPosition = "bottom"
-  theme = "transparent_dark"
+  theme = "https://vksundararajan.github.io/VIBE/css/giscus.css"
   lang = "en"
   loading = "lazy"

@@ -8,7 +8,7 @@ title: "VIBE"
 <!-- # ~Vigneshwar -->
 
 <p class="hero-subtitle">Security Engineer &nbsp;·&nbsp; AppSec &nbsp;·&nbsp; Offensive Security &nbsp;·&nbsp; AI Security</p>
-<p class="hero-bio">Breaking systems to build better ones. 3+ years securing <mark>2M+ users</mark> at Zoho. MS in Cybersecurity from <mark>UCF</mark>. Now engineering security tooling at the intersection of <mark>AI</mark> and <mark>offensive security</mark>.</p>
+<p class="hero-bio">Breaking systems to build better ones. <mark>4+ years</mark> securing 2M+ users at Zoho. MS in Cybersecurity from UCF. Now engineering security tooling at the intersection of <b>AI</b> and <b>Cybersecurity</b>.</p>
 
 <div class="hero-links">
 <a href="https://www.linkedin.com/in/vigneshwar-sundararajan-07a2a5185/" class="hero-link" target="_blank" rel="noopener noreferrer">LinkedIn<a>

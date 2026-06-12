@@ -1,0 +1,38 @@
+@import url('https://giscus.app/themes/transparent_dark.css');
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Skeena Indigenous';
+  src: url('https://vksundararajan.github.io/VIBE/fonts/Skeena-Indigenous/SkeenaIndigenous-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Skeena Indigenous';
+  src: url('https://vksundararajan.github.io/VIBE/fonts/Skeena-Indigenous/SkeenaIndigenous-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Explicit Font Overrides */
+main, .gsc-main, .gsc-comment-content {
+  font-family: 'Skeena Indigenous', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Asul', serif !important;
+}
+
+code, pre {
+  font-family: 'Google Sans Code', monospace !important;
+}
+
+/* Override the aggressive blue focus glow with a subtle gray */
+.gsc-comment-box {
+  --color-accent-fg: #555 !important;
+  --color-accent-emphasis: #555 !important;
+  --color-accent-muted: rgba(85, 85, 85, 0.4) !important;
+  --color-accent-subtle: rgba(85, 85, 85, 0.15) !important;
+}
